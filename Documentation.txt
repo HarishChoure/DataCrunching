@@ -1,0 +1,16 @@
+Documentation : Data Crunching
+
+Algorithm
+
+1) import csv 
+2) i convert all the csv file data into keys and value
+eg: 
+in ip_1m.tsv file i  have id and ip
+id = key
+ip = value
+
+3) i find common id keys in ip_1m.tsv and user_email_hash.1m.tsv
+
+4) i find common email in user_email_hash.1m.tsv and plan_32m.tsv
+
+5) then i map acording to their id and email and insert into output.tsv
